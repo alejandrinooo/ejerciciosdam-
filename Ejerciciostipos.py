@@ -49,3 +49,51 @@ print(x)
 primerafrase="En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor"
 buscar=re.findall(r'a',primerafrase)
 print(len(buscar))
+'''
+'''
+#listas,stsy demas
+#1
+lista = ["filosofia","matematicas","gimnasia","lengua"]
+
+for i in lista:
+    print(i)
+
+for i in lista:
+    print("yo estudio "+i)
+
+#3
+listaset = set(["filosofia","matematicas","gimnasia","lengua"])
+datouser=input("Introduce algo a través del teclado")
+print(datouser in listaset)
+
+##ejercicios estrcturas de control
+#1
+edad=int(input("Introduce la edad"))
+if edad<18:
+    print("es menor de edad")
+else:
+    print("es mayor de edad")
+ 
+#2
+
+contrasenaguardada="aaa"
+contrasena=input("Introduce la contraseña")
+
+if contrasenaguardada.lower() == contrasena.lower():
+    print("contraseña correcta")
+else:
+    print("contraseña incorrecta")
+
+palabro=input("Introduce la contraseña")
+for i in palabro:
+    print(" "+i)
+
+numero=int(input("Introduce un numero"))
+for i in range(numero):
+    if i%2 != 0:
+        print(i)
+   
+
+
+
+
